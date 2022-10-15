@@ -1,3 +1,5 @@
 from django.contrib import admin
 
-# Register your models here.
+from h_w.models import Worker
+
+admin.site.register(Worker)
